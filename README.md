@@ -4,6 +4,9 @@
 **Name:** Brynn Williams
 **Student Number:** ST10324555
 
+## Introduction
+Jahs Adoption Centre is a non profit organization that manages the process of adopting a child 
+
 ## Changelog
 - **2026-7-28:** READ.mdb Created
 - **2026-7-30:** Website modified from Automotive Website to Jahs Adoption centre
