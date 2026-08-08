@@ -15,3 +15,6 @@ Part 1 Incorporates a Proposal for the chosen Organization and the Draft Website
 - **2026-7-30:** Website modified from Automotive Website to Jahs Adoption centre
 - **2026-8-04:** Draft Created for the Jah Adoption Centre
 - **2026-8-06:** READ.mdb updated with the new commands and updated fields from Automobile Website to Jahs Adoption Center.
+
+## Distance So Far
+- **2026-8-08:** Continued building of the website for the Jahs Adoption Centre
