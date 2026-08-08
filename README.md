@@ -5,7 +5,10 @@
 **Student Number:** ST10324555
 
 ## Introduction
-Jahs Adoption Centre is a non profit organization that manages the process of adopting a child 
+Jahs Adoption Centre is a non profit organization that manages the process of adopting a child
+
+## Part 1
+Part 1 Incorporates a Proposal for the chosen Organization and the Draft Website for Jahs Adoption Centre  
 
 ## Changelog
 - **2026-7-28:** READ.mdb Created
