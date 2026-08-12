@@ -3,41 +3,95 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us Page</title>
+    <title>Contact Us - Jahs Adoption Centre</title>
 </head>
 <body>
-    <nav>
-    <a href="Home.html">Home</a>
-    <a href="Contact Us.html">Contact Us</a>
-    <a href="About Us.html">About Us</a>
-    <a href="Enquiry.html">Enquiry</a>
-    <a href="Services.html">Services</a>
-</nav>
 
-<h1>Contact Us by Completing the below form</h1>
+<!--Navigation Menu-->
+
+    <nav>
+        <a href="Home.html">Home</a>
+        <a href="About Us.html">About Us</a>
+        <a href="Services.html">Services</a>
+        <a href="Enquiry.html">Enquiry</a>
+        <a href="Contact Us.html">Contact Us</a>
+    </nav>
+
+<!--Header section-->
+
+<header>
+    <image src="./Images/Jah.png" width="220" height="110" alt="Jah Location"></image>
+        <h1>Contact Jahs Adoption Centre</h1>
+</header>
 
 <main>
-    
-<form>
-<label for="name">Name</label>    
-<input id="name" name="name" required>
-<button type="submit">Send</button>
-</form>
 
-<form>
-<label for="Surname">Surname</label>
-<input id="Surname" name="Surname" requried>
-<button type="submit">send</button>
-</form>
+<!--Contact Information-->
 
+<section id="contact-details">
+    <h2>Get in Touch</h2>
+            <p>Name of contact person: SiphoKazi Ndlovu</p>
+            <p>Telephone Number: 081 234 6764</p>
+            <p>Email Address: Siphokazi98@gmail.com</p>
+</section>
 
+<!--Operating Hours-->
 
-<h1>Contact Number and Email Below</h1>
-<p> Email Address - LuereanJhonson98@gmail.com </p>
-<p> Phone Number - 081 234 6764 </p>
+<section id="operating-hours">
+    <h3>Operating Hours</h3>
+            <p>Monday to Friday: 08:00 to 17:00</p>
+            <p>Saturday: 08:00 to 13:00</p>
+            <p>Sunday and Public Holidays: Closed</p>
+</section>
 
+<!--Interactive Map-->
+
+<section id="Map-location">
+    <h3>Our Locations</h3>
+        <p>Walmer Main Warehouse and Office</p>
+        <p>Port Elizabeth Central Satellite Branch</p>
+
+<!--Map-->
+
+    <iframe src="https://www.google.com/maps/embed?..." width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+</section>
+
+<!--Message Form-->
+        <section id="Contact-form">
+            <h3>Message Jahs Adoption Centre</h3>
+            <p>Complete the form below to send us a general enquiry.</p>
+            
+            <form action="#" method="post">
+                <label for="name">Name</label><br>
+                <input type="text" id="name" name="name" required><br>
+
+                <label for="surname">Surname</label><br>
+                <input type="text" id="surname" name="surname" required><br>
+
+                <label for="cell">Cellphone Number</label><br>
+                <input type="tel" id="cell" name="cell" required><br>
+
+                <label for="email">Email Address</label><br>
+                <input type="email" id="email" name="email" required><br>
+
+                <label for="subject">Subject</label><br>
+                <input type="text" id="subject" name="subject"><br>
+
+                <label for="message">Message</label><br>
+                <textarea id="message" name="message" rows="5" cols="40"></textarea><br>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
 
 </main>
-    
+
+<!--Footer-->
+
+    <footer>
+        <p>&copy; 2026 Jahs Adoption Centre. Founded in 2018, Gqeberha, Eastern Cape.</p>
+    </footer>
+
 </body>
 </html>

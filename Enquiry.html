@@ -3,30 +3,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Enquiry</title>
+    <title>Enquiry - Jahs Adoption Centre</title>
 </head>
 <body>
+
+<!--Navigation Menu-->
+
     <nav>
-    <a href="Home.html">Home</a>
-    <a href="Contact Us.html">Contact Us</a>
-    <a href="About Us.html">About Us</a>
-    <a href="Enquiry.html">Enquiry</a>
-    <a href="Services.html">Services</a>
-</nav>
+        <a href="Home.html">Home</a>
+        <a href="About Us.html">About Us</a>
+        <a href="Services.html">Services</a>
+        <a href="Enquiry.html">Enquiry</a>
+        <a href="Contact Us.html">Contact Us</a>
+    </nav>
 
-<h1> Enquiry about our services </h1>
+<!--Header-->
 
-<p>Who founded Jahs Adoption Centre?</p>
+<header>
+    <image src="./Images/Jah.png" width="220" height="110" alt="Jah Location"></image>
+        
+        <h1>Enquiry About Our Services</h1>
+</header>
 
-<p>What year was the first child adopted?</p>
+<!--Main content area-->
+<main>
+        
+<!--Information Section-->
 
-<p>How long does a child adoption take?</p>
+<section id="Common-questions">
+    <h2>Common Questions</h2>
+        <p>If you are wondering who founded Jahs Adoption Centre, our organization was established in 2018 in Gqeberha to support children in the Nelson Mandela Bay region.</p>
+            
+        <p>Many people ask what year the first child was adopted or how long a child adoption takes. While every journey is unique, our team provides full support throughout the legal timeline.</p>
+            
+        <p>Regarding the cost to adopt a child and the legal requirements, we ensure all processes meet South African legal standards for child safety and protection.</p>
+</section>
 
-<p>Does it cost money to adopt a child?</p>
+<!--The Adoption and Support-->
 
-<p>What are the Laws/Legal requriments to adopting a chid?</p>
+<section id="Enquiry-form">
+    <h2>Start Your Journey</h2>
+        <p>Please fill out the form below to enquire about adoption, volunteering, or sponsorship opportunities.</p>
+            
+<form action="#" method="post">
 
+<!--Grouping Personal Details-->
 
+<fieldset>
+    <legend>Personal Information</legend>
+    <label for="name">First Name:</label><br>
+    <input type="text" id="name" name="name" required><br>
+                    
+    <label for="surname">Surname:</label><br>
+    <input type="text" id="surname" name="surname" required><br>
+                    
+    <label for="cell">Cell Phone Number:</label><br>
+    <input type="tel" id="cell" name="cell" required><br>
+                    
+    <label for="email">Email Address:</label><br>
+    <input type="email" id="email" name="email" required>
+</fieldset>
+
+<!--Query box-->
+ 
+<fieldset>
+    <legend>Your Message</legend>
+    <label for="query">How can we help you today?</label><br>
+    <textarea id="query" name="query" rows="6" cols="40" placeholder="Type your questions here..."></textarea>
+</fieldset>
+
+<!--Action buttons-->
+
+<br>
+    <input type="submit" value="Send Request">
+    <input type="reset" value="Clear Form">
+</form>
+</section>
+
+</main>
+
+<!--Footer-->
+
+<footer>
+    <p>&copy; 2026 Jahs Adoption Centre. Founded in 2018, Gqeberha, Eastern Cape.</p>
+</footer>
 
 </body>
 </html>
